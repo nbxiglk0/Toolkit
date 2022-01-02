@@ -1,6 +1,6 @@
 # TOOlKit
 
 - Toolkit
-  - Scan
+  - HttpScan
   - BackupDict
   - HostA
