@@ -1,9 +1,10 @@
 package main
 
 import (
+	"ToolKit/src/BackupDic"
 	"ToolKit/src/HostA"
-	"ToolKit/src/basicinfo"
-	"ToolKit/src/getdict"
+	"ToolKit/src/HttpScan"
+	"ToolKit/src/nfuncions"
 	"fmt"
 	"time"
 )
@@ -11,14 +12,14 @@ import (
 func main() {
 	//	gui.Main()
 	start := time.Now()
-	callback := parse()
-	switch callback.method {
-	case "scan":
-		basicinfo.Main(callback.argv, callback.scanmode)
-	case "GetDict":
-		getdict.Main(callback.argv["keywords"])
+	callback := nfuncions.Parse()
+	switch callback.Method {
+	case "HttpScan":
+		HttpScan.Main(callback.Argv, callback.Scanmode)
+	case "BackupDic":
+		BackupDic.Main(callback.Argv["keywords"])
 	case "HostA":
-		hosta.Hosta(callback.argv)
+		hosta.Hosta(callback.Argv)
 	}
 	cost := time.Since(start)
 	fmt.Printf("The Task cost time %s", cost)

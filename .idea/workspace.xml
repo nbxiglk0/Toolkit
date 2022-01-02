@@ -4,33 +4,30 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13fe33e9-9620-4631-98df-4922a798aaea" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bin/ToolKit.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/.idea/peach.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/basicinfo/Main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/basicinfo/Request.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/basicinfo/Results.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/basicinfo/handledomain.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/basicinfo/html_out.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/getdict/config.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/getdict/getdict.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/main.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/nfuncions/funtions.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/output/peach.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/paserargv.go" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/peach.exe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/readme.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Peach/removal/Main.go" beforeDir="false" />
+    <list default="true" id="13fe33e9-9620-4631-98df-4922a798aaea" name="Changes" comment="update">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HostA/hosta.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/HostA/hosta.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicinfo/Request.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicinfo/Results.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicinfo/basicinfo.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicinfo/handledomain.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/basicinfo/html_out.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getdict/config.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/getdict/getdict.go" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/paserargv.go" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Go File" />
+      </list>
+    </option>
   </component>
   <component name="GOROOT" url="file://C:/Program Files/Go" />
   <component name="Git.Settings">
@@ -49,6 +46,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
@@ -58,11 +56,12 @@
     <property name="go.import.settings.migrated" value="true" />
     <property name="go.modules.go.list.on.any.changes.was.set" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/bin" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/Tools" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\GitHub\ToolKit\src\nfuncions" />
       <recent name="D:\GitHub\ToolKit\src" />
       <recent name="D:\GitHub\ToolKit" />
     </key>
@@ -85,7 +84,8 @@
       <package value="ToolKit/src" />
       <directory value="$PROJECT_DIR$" />
       <filePath value="$PROJECT_DIR$/src/main.go" />
-      <output_directory value="$PROJECT_DIR$/bin" />
+      <output_directory value="$USER_HOME$/Desktop/Tools" />
+      <option name="run" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="GoApplicationRunConfiguration" factoryName="Go Application">
@@ -128,9 +128,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <ignored-roots>
-      <path value="$PROJECT_DIR$" />
-    </ignored-roots>
+    <MESSAGE value="update" />
+    <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="VgoProject">
     <integration-enabled>true</integration-enabled>
